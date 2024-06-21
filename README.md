@@ -28,4 +28,6 @@ run node index.js and test out the table of contents to find the right way to en
 This project is licensed under the MIT license.
 
 ## Questions
-If you have any questions, please contact me at [esoriano110@gmail.com](mailto:esoriano110@gmail.com). You can also find me on GitHub at [So-Emily](https://github.com/So-Emily).
+If you have any questions, please contact me at [esoriano110@gmail.com](mailto:esoriano110@gmail.com). 
+
+You can also find me on GitHub at [So-Emily](https://github.com/So-Emily).
