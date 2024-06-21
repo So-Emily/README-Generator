@@ -6,7 +6,12 @@
 A program that helps create a professional README by asking a few questions in node
 
 ## Table of Contents
-Installation, Usage, Contribution, Tests, License, Questions
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- [Tests](#tests)
+- [License](#license)
+- [Questions](#questions)
 
 ## Installation
 run node index.js

@@ -9,7 +9,7 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const questions = [
     'What is the title of your project?',
     'What is the description of your project?',
-    'What would be in your table of contents?',
+    'What would be in your table of contents (use , between content words)?',
     'What are the installation instructions?',
     'What is the usage information?',
     'What are the contribution guidelines?',
