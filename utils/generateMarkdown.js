@@ -45,15 +45,21 @@ function renderLicenseSection(license) {
 // Function to generate markdown for README
 // Returns a string that will be written to the README file
 function generateMarkdown(data) {
+  
+  // Creating Table of Contents
+  // Split the table of contents into an array of words
+  // Join the list items into a string
+const words = data.tableOfContents.split(',').map(word => word.trim());
+const tableOfContents = words.map(word => `- [${word}](#${word.toLowerCase().replace(/ /g, '-')})`).join('\n');
+
 return `# ${data.title}
-// Render the license badge
 ${renderLicenseBadge(data.license)}
 
 ## Description
 ${data.description}
 
 ## Table of Contents
-${data.tableOfContents}
+${tableOfContents}
 
 ## Installation
 ${data.installation}
