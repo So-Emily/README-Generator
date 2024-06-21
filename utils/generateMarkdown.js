@@ -37,8 +37,7 @@ function renderLicenseSection(license) {
     if (license === 'None') {
         return '';
     } else {
-        return `## License
-        This project is licensed under the ${license} license.`;
+        return `This project is licensed under the ${license} license.`;
     }
 }
 
@@ -46,34 +45,35 @@ function renderLicenseSection(license) {
 // Function to generate markdown for README
 // Returns a string that will be written to the README file
 function generateMarkdown(data) {
-  return `# ${data.title}
-  // Render the license badge
-  ${renderLicenseBadge(data.license)}
+return `# ${data.title}
+// Render the license badge
+${renderLicenseBadge(data.license)}
 
-  ## Description
-  ${data.description}
+## Description
+${data.description}
 
-  ## Table of Contents
-  ${data.tableOfContents}
+## Table of Contents
+${data.tableOfContents}
 
-  ## Installation
-  ${data.installation}
+## Installation
+${data.installation}
 
-  ## Usage
-  ${data.usage}
+## Usage
+${data.usage}
 
-  ## Contribution
-  ${data.contribution}
+## Contribution
+${data.contribution}
 
-  ## Tests
-  ${data.tests}
+## Tests
+${data.tests}
 
-  ## License
-  ${renderLicenseSection(data.license)}
+## License
+${renderLicenseSection(data.license)}
 
-  ## Questions
-  If you have any questions, please contact me at [${data.email}](mailto:${data.email}). You can also find me on GitHub at [${data.github}](
-  `;
+## Questions
+If you have any questions, please contact me at [${data.email}](mailto:${data.email}). 
+You can also find me on GitHub at [${data.github}](https://github.com/${data.github}).`;
 }
 
+// Export the generateMarkdown function
 module.exports = generateMarkdown;
