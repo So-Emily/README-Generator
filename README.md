@@ -4,8 +4,6 @@
 ## Description
 A program that helps create a professional README.md by asking a few questions in node and stringing it all together in README form.
 
-[![Project Video](https://drive.google.com/file/d/1V26fndBt-LewVXgicdoud-w4gj71l6ZZ/view?usp=sharing)
-
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
