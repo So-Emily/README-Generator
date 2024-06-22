@@ -2,7 +2,7 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-A program that helps create a professional README by asking a few questions in node
+A program that helps create a professional README.md by asking a few questions in node and stringing it all together in README form.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,7 +13,10 @@ A program that helps create a professional README by asking a few questions in n
 - [Questions](#questions)
 
 ## Installation
+node is needed
+node modules is part of this project but is not in the git hub repository
 run node index.js
+
 
 ## Usage
 You use it through bash or terminal you run node through
@@ -22,7 +25,8 @@ You use it through bash or terminal you run node through
 I give credit to myself and google for helping rememeber how to call the data!
 
 ## Tests
-run node index.js and test out the table of contents to find the right way to enter it (note to self)
+Tests that come to mind is to test out the table of content because it is a little specific.
+(Table of Content split with ,)
 
 ## License
 This project is licensed under the MIT license.

@@ -45,12 +45,12 @@ function renderLicenseSection(license) {
 // Function to generate markdown for README
 // Returns a string that will be written to the README file
 function generateMarkdown(data) {
-  
+
   // Creating Table of Contents
   // Split the table of contents into an array of words
   // Join the list items into a string
-const words = data.tableOfContents.split(',').map(word => word.trim());
-const tableOfContents = words.map(word => `- [${word}](#${word.toLowerCase().replace(/ /g, '-')})`).join('\n');
+    const words = data.tableOfContents.split(',').map(word => word.trim());
+    const tableOfContents = words.map(word => `- [${word}](#${word.toLowerCase().replace(/ /g, '-')})`).join('\n');
 
 return `# ${data.title}
 ${renderLicenseBadge(data.license)}
@@ -78,6 +78,7 @@ ${renderLicenseSection(data.license)}
 
 ## Questions
 If you have any questions, please contact me at [${data.email}](mailto:${data.email}). 
+
 You can also find me on GitHub at [${data.github}](https://github.com/${data.github}).`;
 }
 
